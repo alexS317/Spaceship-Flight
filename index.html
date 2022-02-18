@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSC Final Project</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="screen" id="start-screen">
+        <img class="screen-image" id="start-image" src="./Assets/start_screen.png">
+        <button class="button" id="start">Start</button>
+        <button class="button" id="how-to-play">How to play</button>
+    </div>
+
+    <div class="screen" id="how-to-play-screen">
+        <img class="screen-image" id="how-to-play-image" src="./Assets/how_to_play_screen.png">
+        <button class="button" id="back">Back</button>
+    </div>
+
+    <canvas id="canvas"></canvas>
+    <div id="credits">game by Alexandra Fontner, music and sound effects from <a href="https://freesfx.co.uk">freesfx.co.uk</a></div>
+
+    <div class="screen" id="game-over-screen">
+        <img class="screen-image" id="game-over-image" src="./Assets/game_over_screen.png">
+        <div id="score">0</div>
+        <button class="button" id="back-to-menu">Back to menu</button>
+    </div>
+    
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
